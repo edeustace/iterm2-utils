@@ -4,8 +4,8 @@ Some iterm script utils..
 # Installation
 
     cd ~
-    git clone git@github.com:edeustace/iterm2-utils.git .iterm2-utils
-    echo "export PATH=$PATH:~/.iterm2-utils" >> .zshrc #or do the same for bash
+    git clone git@github.com:edeustace/iterm2-utils.git .iterm-utils
+    echo "export PATH=$PATH:~/.iterm-utils" >> .zshrc #or do the same for bash
 
 Note currently requires Ruby - writing the shell script was painful so I just delegated to ruby.
 
