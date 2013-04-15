@@ -8,7 +8,7 @@ b = rand(100).to_s(16)
 
 r, b, g = [r, b, g].map { |s| if s.size == 1 then '0' + s else s end }
 
-color = r + b + g      # => e.g. "09f5ab"
+color = r + b + g      
 puts color
-#"ff00ff"
+
 
