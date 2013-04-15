@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+num = rand(100)
+shift = (num - 100 ) * -1
+r = rand(100).to_s(16)
+g = rand(100).to_s(16)
+b = rand(100).to_s(16)
+
+r, b, g = [r, b, g].map { |s| if s.size == 1 then '0' + s else s end }
+
+color = r + b + g      # => e.g. "09f5ab"
+puts color
+#"ff00ff"
+

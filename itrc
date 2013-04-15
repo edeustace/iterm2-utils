@@ -1,0 +1,6 @@
+#!/usr/bin/env zsh
+echo "-- itrc - iterm random bg color generator"
+local RANDOM_HEX
+RANDOM_HEX=`~/.iterm-utils/random`
+echo -e "\033]Ph${RANDOM_HEX}\033\\"
+
